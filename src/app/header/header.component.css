@@ -1,0 +1,33 @@
+header{
+    background-color: var(--color3);
+    padding: 0;
+    border-bottom: 3px solid var(--color1);
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: var(--color4);
+    font-weight: 700;
+}
+a:hover{
+    color: var(--color1);
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
+

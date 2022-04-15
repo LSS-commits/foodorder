@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+/* MY GLOBAL STYLESHEET */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap');
+
+/* STYLE VARIABLES */
+:root{
+    /* eclipse black */
+    --color1: #363636;
+    /* antique white */
+    --color2: #faebd7;
+    /* maximum yellow red */
+    --color3: #ffc043;
+    /* green pigment */
+    --color4: #05a357; 
+    /* emerald */
+    --color5: #06c167;
+    /* cinnabar red */
+    --color6: #f03f35;
+}
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: var(--color1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    transition: all 0.15s ease-in-out;
+}
