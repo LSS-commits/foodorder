@@ -2,6 +2,7 @@ header{
     background-color: var(--color3);
     padding: 0;
     border-bottom: 3px solid var(--color1);
+    font-family: 'Rubik', sans-serif;
 }
 .container{
     margin: 0 auto;
@@ -10,11 +11,11 @@ header{
 }
 
 a{
-    color: var(--color4);
+    color: var(--color1);
     font-weight: 700;
 }
 a:hover{
-    color: var(--color1);
+    color: var(--color4);
 }
 
 a.logo{
@@ -29,5 +30,15 @@ nav ul{
 nav ul li a{
     padding: 1em;
     display: inline-block;
+    border: 0.1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 3px;
+    text-decoration: underline var(--color4) solid 3px;
+}
+nav ul li a:hover{
+    background-color: var(--color1);
+    color: #ffffff;
+    text-decoration: underline var(--color3) solid 3px;
+    transition: all 0.2s ease-in-out;
 }
 
