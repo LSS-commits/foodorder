@@ -32,11 +32,11 @@ nav ul li a{
     display: inline-block;
     border: 0.1px solid #ffffff;
     background-color: #ffffff;
-    border-radius: 3px;
     text-decoration: underline var(--color4) solid 3px;
 }
 nav ul li a:hover{
     background-color: var(--color1);
+    border: 0.1px solid var(--color1);
     color: #ffffff;
     text-decoration: underline var(--color3) solid 3px;
     transition: all 0.2s ease-in-out;

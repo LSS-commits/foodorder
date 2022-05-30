@@ -1,6 +1,8 @@
 <ul>
-    <!-- Structural directive = string interpolation (use variable for string values) from home.component.ts to show images -->
-    <li *ngFor="let food of foods">
-        <img src="{{food}}" alt="food images">
-    </li>
+  <!-- Structural directive = string interpolation (use variable for string values) from home.component.ts to show images -->
+  <li *ngFor="let food of foods">
+    <a href="">
+      <img src="{{food}}" alt="food images">
+    </a>
+  </li>
 </ul>
