@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FoodService } from '../services/food/food.service';
+import { Foods } from '../shared/models/foods';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import { FoodService } from '../services/food/food.service';
 })
 export class HomeComponent implements OnInit {
   // add food property to home component
-  foods:string[]= [];
+  foods:Foods[] = [];
   // private fs = variable created to inject food service in home component
   constructor(private fs:FoodService) { }
 

@@ -2,7 +2,18 @@
   <!-- Structural directive = string interpolation (use variable for string values) from home.component.ts to show images -->
   <li *ngFor="let food of foods">
     <a href="">
-      <img src="{{food}}" alt="food images">
+      <img src="{{food.imageUrl}}" alt="food images">
+      <div class="content">
+
+        <div class="foodName">
+          {{ food.name }}
+        </div>
+        <span class="favorite {{ food.favorite?'':'not'}}"><i class="fa-solid fa-star"></i></span>
+
+
+
+
+      </div>
     </a>
   </li>
 </ul>
