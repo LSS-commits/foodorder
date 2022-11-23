@@ -1,5 +1,5 @@
 # Bab's Food Corner - Food Order App
-I am currently working on an online food store with Angular 13. The back-end code will be available in another repository.
+I am currently working on a food store with Angular 13. The back-end code will be available in another repository.
 
 # Overview
 - Presentation of products
